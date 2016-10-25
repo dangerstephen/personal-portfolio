@@ -6,3 +6,24 @@ img { height:  230px;
 body {
   text-align: center;
 }
+ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    header {
+      text-align: center;
+      background-color: #d1ece8;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'Quicksand', sans-serif;
+      color: grey;
+    }
