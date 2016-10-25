@@ -1,7 +1,12 @@
-img { height:  230px;
+#mainImg{ height:  230px;
     width: 230px;
     border-radius: 200px;
 
+}
+img{
+  height:60px;
+  width:60px;
+  padding: 2px;
 }
 body {
   text-align: center;
@@ -26,4 +31,6 @@ ul {
       font-size: 70px;
       font-family: 'Quicksand', sans-serif;
       color: grey;
+    }
+    ol{text-align: right;
     }
