@@ -23,6 +23,9 @@ ul {
       text-align: center;
       background-color: #c2d6d6;
       color: white;
+      position: absolute;
+      top: 0;
+      width: 100%;
     }
     a {
       color: white;
