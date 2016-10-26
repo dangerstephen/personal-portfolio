@@ -4,8 +4,8 @@
 
 }
 img{
-  height:60px;
-  width:60px;
+  height:30px;
+  width:30px;
   padding: 2px;
 }
 body {
@@ -13,7 +13,10 @@ body {
 }
 ul {
       padding: 10px;
-      background: rgba(0,0,0,0.5);
+      background: #45495f;
+
+      bottom: 0;
+      width: 100%;
     }
     li {font-family: 'Comfortaa', cursive;
       display: inline;
@@ -33,7 +36,11 @@ ul {
     h1 {
       font-size: 70px;
       font-family: 'Quicksand', sans-serif;
-      color: grey;
+      color: #45495f;
     }
     ol{text-align: right;
+    }
+    body{
+      background-color: snow;
+
     }
