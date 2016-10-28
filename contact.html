@@ -11,32 +11,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link rel="icon" type="image/png" href="assets/imgs/owl_favicon_1x.png">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand" rel="stylesheet">
 </head>
 <body>
-<header>
-  <div id="page-wrapper">
-    <ol>
-        <li><a href="https://github.com/dangerstephen"><img src= "assets/imgs/GitHub.png"></a></li>
-        <li><a href="https://www.instagram.com/dangerstephen/"><img src= "assets/imgs/Instagram.png"></a></li>
-        <li><a href="https://twitter.com/dangerstephen1"><img src= "assets/imgs/Twitter.png"></a></li>
-        <li><a href="https://www.linkedin.com/in/stephen-dangerfield-a46372128?trk=nav_responsive_tab_profile_pic"><img src= "assets/imgs/LinkedIn.png"></a></li>
 
-    </ol>
-    <img id="mainImg" src="assets/imgs/DANGER1.jpg">
-    <h1>Stephen Dangerfield</h1>
-  </div>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="work.html">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</header>
+
+<form id="contact-form">
+ <p>Stephen, lets talk </p>
+ <p>My
+   <label for="your-name">name</label> is
+   <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and</p>
+
+ <p>you can reach me via email at
+   <label for="email"></label>
+   <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+ </p>
+
+ <p> Id like to talk about:
+   <label for="your-message"></label> </p>
+
+ <p>
+   <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+ </p>
+ <p>
+   <button type="submit">
+
+     <small>send</small>
+   </button>
+ </p>
+</form>
+
+
 </body>
 </html>
