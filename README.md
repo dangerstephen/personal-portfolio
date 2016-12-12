@@ -1,6 +1,3 @@
-
-<snippet>
-  <content><![CDATA[
 # ${1:My personal-portfolio}
 TODO: Write a project description
 ## Building a personal-portfolio as i learn new things in class
@@ -19,6 +16,3 @@ TODO: Write history
 TODO: Write credits
 ## License
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
