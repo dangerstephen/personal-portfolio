@@ -18,18 +18,18 @@
     }
 }
 
+.navbar-hidden{
+    display: none;
+}
 
-
-/*!
- * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 
 html, body {
     height: 100%;
     width: 100%;
+}
+header img{
+    opacity:0.75;
 }
 
 body {
@@ -111,9 +111,9 @@ header {
     overflow-y: hidden;
     background: url("../img/bg-pattern.png"), #517fa4;
     /* fallback for old browsers */
-    background: url("#"), -webkit-linear-gradient(to left, #517fa4, #243949);
+    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #517fa4, #243949);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: url("#"), linear-gradient(to left, #517fa4, #243949);
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, #517fa4, #243949);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
 }

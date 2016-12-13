@@ -1,3 +1,17 @@
+var stickyNavOffset = $('.about').offset().top;
+
+$(window).on('scroll', function () {
+	var distanceScrolled = $(window).scrollTop();
+
+	// Code to stick nav to top
+	if (distanceScrolled > stickyNavOffset) {
+        $('nav').removeClass('navbar-hidden');
+
+	} else {
+        $('nav').addClass('navbar-hidden');
+	}
+});
+
 (function($) {
     "use strict"; // Start of use strict
 
