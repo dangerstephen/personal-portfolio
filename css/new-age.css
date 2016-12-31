@@ -2,8 +2,8 @@
     width: 30em;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: type 7s steps(50, end);
-    animation: type 7s steps(50, end);
+    -webkit-animation: type 7s steps(60, end);
+    animation: type 7s steps(60, end);
 }
 
 @keyframes type {
@@ -28,9 +28,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
-header img{
+
+/*header img{
     opacity:0.75;
-}
+}*/
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
@@ -229,5 +230,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-    background: linear-gradient(#a2a09b, #a2a09b);
+    background: linear-gradient(#c4c5c3, #c4c5c3);
 }
